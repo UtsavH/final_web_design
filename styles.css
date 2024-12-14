@@ -155,11 +155,11 @@ nav ul li a:hover {
 }
 
 .project-card img {
-    width: 100%; /* Ensures the image takes up the width of its parent container */
-    max-width: 386px; /* Limits the size of the image to a maximum width */
+    width: 100%; 
+    max-width: 386px; 
     height: auto;
-    border-radius: 8px; /* Optional: adds rounded corners to the image */
-    margin-bottom: 15px; /* Optional: adds space below the image */
+    border-radius: 8px; 
+    margin-bottom: 15px; 
 }
 
 
@@ -285,16 +285,16 @@ footer .social-media-links a:hover {
         padding: 10px 20px;
     }
 
-    /* Projects Section */
+    
     .project-grid {
-        grid-template-columns: 1fr; /* Stack cards in one column */
+        grid-template-columns: 1fr; 
     }
 
     .project-card {
         padding: 15px;
     }
 
-    /* Skills Section */
+    
     .skills {
         justify-content: center;
     }
@@ -310,7 +310,7 @@ footer .social-media-links a:hover {
     }
 }
 
-/* For smaller mobile devices */
+
 @media only screen and (max-width: 480px) {
     .hero h1 {
         font-size: 2rem;

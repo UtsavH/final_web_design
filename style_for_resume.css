@@ -1,17 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Economica&family=Hedvig+Letters+Sans&family=Nova+Square&family=Poppins&display=swap');
 
-/* General body and layout styles */
-/* #base, #second_page {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-image: url("/tinypng/watercolor.jpg");
-    background-attachment: fixed;
-    padding-top: 55px;
-    text-align: justify;
-} */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -19,9 +8,9 @@ body {
     background-color: #f4f7f6;
     color: #333;
     display: flex;
-    flex-direction: column;  /* Stack items vertically */
+    flex-direction: column; 
     justify-content: flex-start;
-    min-height: 100vh;  /* Ensure body takes up full height */
+    min-height: 100vh;  
     background-image: url('./images/watercolor.jpg');
     background-position: center center;
     background-size: cover;
@@ -51,11 +40,8 @@ nav ul li a:hover {
     background-color: #ff6600;
     border-radius: 5px;
 }
-/* #second_page {
-    font-family: 'Nova Square', sans-serif;
-} */
 
-/* Header Styling */
+
 header {
     background-color: #333;
     color: #fff;
@@ -147,7 +133,7 @@ li {
     margin-bottom: 5px;
 }
 
-/* Footer Styling */
+
 #g-footer {
     display: flex;
     justify-content: center;
@@ -189,7 +175,7 @@ footer a:hover {
     margin-left: 20px;
 }
 
-/* Education Section */
+
 .education {
     margin-top: 20px;
 }
@@ -222,7 +208,7 @@ footer a:hover {
     margin-top: 10px;
 }
 
-/* Objective Section */
+
 .objective {
     margin-top: 20px;
     padding: 10px;
@@ -232,7 +218,7 @@ footer a:hover {
     font-size: 1rem;
 }
 
-/* Links in Objective Section */
+
 .objective a {
     color: #007bff;
     text-decoration: none;
@@ -258,10 +244,10 @@ footer a:hover {
     background-color: #333;
     color: white;
     padding: 20px;
-    width: 100%; /* Ensure it takes full width */
+    width: 100%; 
     text-align: center;
-    margin: 0 auto; /* Center the footer */
-    max-width: 1200px; /* Optional: Limit the max-width for larger screens */
+    margin: 0 auto; 
+    max-width: 1200px; 
 }
 
 .footer .social-media-links {
